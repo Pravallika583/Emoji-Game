@@ -1,0 +1,33 @@
+/* Write your code here. */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+}
+.bg-container {
+  background-image: linear-gradient(to bottom, #9796f0, #fbc7d4);
+  min-height: 100vh;
+}
+.emojis-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.emojis-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  width: 60%;
+  margin: auto;
+}
+@media screen and (max-width: 767px) {
+  .emojis-list {
+    gap: 10px;
+    width: 80%;
+  }
+}
