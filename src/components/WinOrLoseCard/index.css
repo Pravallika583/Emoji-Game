@@ -33,11 +33,26 @@
   border-radius: 6px;
   border-width: 0px;
   padding: 8px 12px;
-   cursor: pointer;
-    outline: none;
+  cursor: pointer;
+  outline: none;
 }
 .result-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+/* For small and Extra small devices */
+@media screen and (max-width: 767px) {
+  .status-container {
+    display: flex;
+    flex-direction: column;
+    padding:30px;
+  }
+  .result-image {
+    height: 250px;
+  }
+  .image-container{
+     order: -1;
+  }
 }

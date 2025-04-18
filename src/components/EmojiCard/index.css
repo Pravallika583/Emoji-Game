@@ -13,7 +13,8 @@
   height: 80px;
   width: 80px;
 }
-@media screen and (max-width: 767px) {
+/* extra small devices*/
+@media screen and (max-width: 576px) { 
   .emoji-image {
     height: 30px;
     width: 30px;
@@ -22,3 +23,34 @@
     padding: 15px;
   }
 }
+/* small devices*/
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .emoji-image {
+    height: 45px;
+    width: 45px;
+  }
+  .emoji {
+    padding: 25px;
+  }
+}
+/* medium devices*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .emoji-image {
+    height: 40px;
+    width: 40px;
+  }
+  .emoji {
+    padding: 20px;
+  }
+}
+/* Large devices */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .emoji-image {
+    height: 40px;
+    width: 40px;
+  }
+  .emoji {
+    padding: 25px;
+  }
+}
+

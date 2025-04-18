@@ -13,7 +13,7 @@ class WinOrLoseCard extends Component {
           <h1 className="full-score">12/12</h1>
           <button className="play-button">Play Again</button>
         </div>
-        <div>
+        <div className="image-container">
           <img
             src="https://assets.ccbp.in/frontend/react-js/won-game-img.png"
             className="result-image"

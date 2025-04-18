@@ -24,10 +24,10 @@ class EmojiGame extends Component {
         <NavBar />
         <div className="emojis-container">
           <ul className="emojis-list">
-          {emojisList.map(eachemoji => (
-            <EmojiCard key={eachemoji.id} emojiDetails={eachemoji} />
-          ))}
-        </ul>
+            {emojisList.map(eachemoji => (
+              <EmojiCard key={eachemoji.id} emojiDetails={eachemoji} />
+            ))}
+          </ul>
         </div>
       </div>
     )
@@ -35,5 +35,3 @@ class EmojiGame extends Component {
 }
 
 export default EmojiGame
-
-
