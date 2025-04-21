@@ -8,17 +8,18 @@
   color: white;
   background-color: #ffffff33;
 }
-
 .logo-container {
   display: flex;
   align-items: center;
   gap: 15px;
 }
-
 .score-container {
   display: flex;
   align-items: center;
   gap: 20px;
+}
+.align-navbar{
+  justify-content: flex-start;
 }
 .score,
 .top-score,
