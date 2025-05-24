@@ -23,9 +23,12 @@
 }
 .score-check {
   color: white;
+  font-size: 20px;
+  margin-bottom: 6px;
 }
 .full-score {
   color: #6a59ff;
+  font-weight: bold;
 }
 .play-button {
   background-color: #ffce27;
@@ -47,12 +50,12 @@
   .status-container {
     display: flex;
     flex-direction: column;
-    padding:30px;
+    padding: 30px;
   }
   .result-image {
     height: 250px;
   }
-  .image-container{
-     order: -1;
+  .image-container {
+    order: -1;
   }
 }

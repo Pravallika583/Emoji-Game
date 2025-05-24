@@ -13,8 +13,11 @@
   height: 80px;
   width: 80px;
 }
+button {
+  all: unset;
+}
 /* extra small devices*/
-@media screen and (max-width: 576px) { 
+@media screen and (max-width: 576px) {
   .emoji-image {
     height: 30px;
     width: 30px;
@@ -53,4 +56,3 @@
     padding: 25px;
   }
 }
-
